@@ -12,4 +12,4 @@ for num in range(len(binInput)):
   else():
     bin*=2
     
-  print(value)
+print(value)
