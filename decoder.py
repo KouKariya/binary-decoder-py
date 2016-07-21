@@ -2,14 +2,14 @@
 #Written by Jesse Gallarzo
 
 binInput=input("Enter 4 bit binary number: ")
-bin=1
-value = int()
+binValue=1
+result=int()
 
 for num in range(len(binInput)):
   if(num==0):
-    value+=bin
-    bin*= 2
+    result+=binValue
+    binValue*= 2
   else():
-    bin*=2
+    binValue*=2
     
-print(value)
+print(result)
