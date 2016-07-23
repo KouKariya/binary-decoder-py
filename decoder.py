@@ -1,7 +1,7 @@
 #decoder.py
 #Written by Jesse Gallarzo
 
-binInput=str(input("Enter 4 bit binary number: "))
+binInput=raw_input("Enter 4 bit binary number: ")
 binValue =1
 result=0
 
