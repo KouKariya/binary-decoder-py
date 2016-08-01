@@ -4,6 +4,8 @@
 
 binInput=raw_input("Enter 4 bit binary number: ")
 #reverse string to account for right-to-left from binary values
+#binInput=binInput[::-1]
+#TEST CODE ABOVE TO SEE IF APPLICABLE
 binValue =1
 result=0
 
